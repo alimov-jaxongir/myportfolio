@@ -490,7 +490,7 @@ main {
 }
 
      .resume__btn{
-      background:rgb(255,197,0);
+      background:rgb(255, 196, 0,.9);
       border-radius: 20px;
       margin-top: 25px;
      }
@@ -629,6 +629,10 @@ main {
   border-radius: 16px;
   overflow: hidden;
   margin-bottom: 15px;
+}
+.project-img >img{
+  min-height: 200px;
+  
 }
 
 .project-img::before {
